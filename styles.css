@@ -1,4 +1,12 @@
-header {
+body {
+    font-family: Helvetica, Arial,  sans-serif;
+}
+
+h1, h2 {
+    font-family: 'roboto', sans-serif;
+}
+
+header, footer {
     background-color: #1F232A;
     color: #fff;
 }
@@ -23,6 +31,61 @@ a {
     background: linear-gradient(to bottom, #1F232A 0%, #8a8a8a 100%); /* Transition from dark to light */
   }
 
+.transition2 {
+    height: 50px; /* Height of the transition area */
+    background: linear-gradient(to bottom, #8a8a8a  0%,#1F232A 100%); /* Transition from dark to light */
+  }
+
 #projects {
     background: #8A8A8A;
 }
+
+.project-container {
+    border: 1px solid #ddd; /* Adjust color and border size as needed */
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: for adding a subtle shadow */
+  }
+  .image-container {
+    width: 100%; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    overflow: hidden; /* Hide the overflowed part of the image */
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area, may cut off some part of the image */
+  }
+
+  #contact {
+    background-color: #1F232A;
+    color: #fff;
+  }
+
+  .btn-custom-cv {
+    background-color: #fff; /* Custom color for CV button */
+    color: black; /* Text color */
+  }
+
+  .btn-custom-cv:hover {
+    background-color: #5a6268;
+  }
+  
+  .btn-custom-linkedin {
+    background-color: #0077B5; /* LinkedIn's brand color for the button */
+    color: white; /* Text color */
+  }
+
+  .custom-github-btn, .custom-live-btn {
+    background-color: #000; /* Bootstrap's secondary color for outline buttons */
+    color: white; /* White text for better contrast */
+    border: 1px solid transparent; /* Optional: if you want to remove the border */
+  }
+  
+  .custom-github-btn:hover .custom-live-btn:hover{
+    background-color: #5a6268; /* A darker shade on hover */
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+ 
