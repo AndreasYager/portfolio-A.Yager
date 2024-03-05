@@ -1,0 +1,28 @@
+header {
+    background-color: #1F232A;
+    color: #fff;
+}
+
+.header-right {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-color: #1F232A;
+    color: #fff;
+
+}
+
+.transition {
+    height: 50px; /* Height of the transition area */
+    background: linear-gradient(to bottom, #1F232A 0%, #8a8a8a 100%); /* Transition from dark to light */
+  }
+
+#projects {
+    background: #8A8A8A;
+}
