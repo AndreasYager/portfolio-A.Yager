@@ -4,6 +4,20 @@ function scrollToSection(sectionId) {
 
 let projects = [
   {
+    title: "Holidaze",
+    image: "images/yagersholidaze.jpg",
+    description: "This project showcases the culmination of skills and knowledge acquired over two years at Noroff, focusing on creating a front-end application for an accommodation booking site. The project involves building a customer-facing and an admin-facing website where users can book holidays at venues and manage venues and bookings.",
+    github: "https://github.com/AndreasYager/holidaze",
+    live: "https://yagersholidaze.netlify.app"
+  },
+{
+  title: "Yager's Ecom",
+  image: "images/yagersecom.jpg",
+  description: "The brief for this project was to create an e-commerce site using Wordpress API. Required features were users being able to add items to cart and checkout, as well as a functioning contact form. All using React.",
+  github: "https://github.com/AndreasYager/noroff-ecommerce",
+  live: "https://yagersecom.netlify.app"
+},
+  {
     title: "Yager's Auction House",
     image: "images/YAHport.jpg",
     description: "The breif for this project was to create an auction site using Noroff API. Required features were users being able to add items as well as bid on items.",
